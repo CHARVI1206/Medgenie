@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "332839194414",
+    "project_id": "medgenie-a8d1b",
+    "storage_bucket": "medgenie-a8d1b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332839194414:android:b8f2cbe705aabb4324f4bf",
+        "android_client_info": {
+          "package_name": "com.example.medgenie"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7JL7NMWiQKZnZpPfFRXFH7gqTWnOC-oI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AI Health Assistant"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Symptom Input -->
+    <EditText
+        android:id="@+id/etSymptomInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your symptoms..."
+        android:layout_below="@id/tvTitle"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Get Diagnosis Button -->
+    <Button
+        android:id="@+id/btnGetDiagnosis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etSymptomInput"
+        android:text="Get AI Diagnosis"/>
+
+    <!-- AI Response Display -->
+    <TextView
+        android:id="@+id/tvDiagnosisResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@id/btnGetDiagnosis"
+        android:padding="10dp"
+        android:text="Diagnosis will appear here..."/>
+
+    <!-- Nearest Hospitals Button -->
+    <Button
+        android:id="@+id/btnFindHospitals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDiagnosisResult"
+        android:text="Find Nearest Hospitals"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"/>
+
+</RelativeLayout>

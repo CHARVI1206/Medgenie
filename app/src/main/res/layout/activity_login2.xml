@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/white"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Profile Picture Upload -->
+        <!--<ImageView
+           android:id="@+id/profileImage"
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+       android:src="@drawable/ic_profile"
+           android:scaleType="centerCrop"
+           android:background="@drawable/circle_bg"
+           android:onClick="selectProfilePicture" />-->
+
+        <!-- Name -->
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Full Name"
+            android:inputType="textPersonName" />
+
+        <!-- Mobile -->
+        <EditText
+            android:id="@+id/etMobile"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Mobile Number"
+            android:inputType="phone" />
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <!-- Address -->
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="Address"
+            android:inputType="textPostalAddress" />
+
+        <!-- Preferred Language -->
+        <Spinner
+            android:id="@+id/spinnerLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:entries="@array/languages" />
+
+        <!-- Location Access -->
+        <Button
+            android:id="@+id/btnLocation"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:onClick="getLocation"
+            android:text="Grant Location Access" />
+
+        <!-- Google Sign-In -->
+
+        <!-- Register Button -->
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/googleSignInButton"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:onClick="googleSignIn" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:onClick="registerUser" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pregnancy and Baby Health"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+        <!-- Trimester Selection -->
+        <Spinner
+            android:id="@+id/spinnerTrimester"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/trimester_options"/>
+
+        <!-- Get Health Tips -->
+        <Button
+            android:id="@+id/btnGetHealthTips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Health Tips"/>
+
+        <!-- Health Tips Display -->
+        <TextView
+            android:id="@+id/tvHealthTips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Health tips will appear here..."
+            android:padding="10dp"/>
+
+        <!-- Doctor Appointment Reminder -->
+        <Button
+            android:id="@+id/btnSetReminder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Doctor Reminder"/>
+
+        <!-- Baby Nutrition Selection -->
+        <EditText
+            android:id="@+id/etBabyAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Baby's Age in Months"
+            android:inputType="number"/>
+
+        <Spinner
+            android:id="@+id/spinnerGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/gender_options"/>
+
+        <!-- Get Nutrition Advice -->
+        <Button
+            android:id="@+id/btnGetNutrition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Nutrition Advice"/>
+
+        <!-- Nutrition Advice Display -->
+        <TextView
+            android:id="@+id/tvNutritionAdvice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Nutrition advice will appear here..."
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

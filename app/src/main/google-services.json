@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "332839194414",
+    "project_id": "medgenie-a8d1b",
+    "storage_bucket": "medgenie-a8d1b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332839194414:android:b8f2cbe705aabb4324f4bf",
+        "android_client_info": {
+          "package_name": "com.example.medgenie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332839194414-hs7pfdl2j5bnc6l4b7fqopd58uh2rm0r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medgenie",
+            "certificate_hash": "6fdd51a31e4a5d4c7a187fdb3533decbb0fabf36"
+          }
+        },
+        {
+          "client_id": "332839194414-v8oljbvjkr09dbrvl2pf0ielcftlo08v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7JL7NMWiQKZnZpPfFRXFH7gqTWnOC-oI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332839194414-v8oljbvjkr09dbrvl2pf0ielcftlo08v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

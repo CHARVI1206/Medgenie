@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tv_sos_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency SOS and Ambulance"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_sos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEND SOS ALERT 🚨"
+        android:textSize="18sp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btn_nearest_hospital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Nearest Hospital 🏥"
+        android:textSize="18sp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_book_ambulance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Ambulance 🚑"
+        android:textSize="18sp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_sos_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SOS Status: Waiting..."
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MedGenie</string>
+
+    <string name="default_web_client_id">
+613778382818-msqrj6gaa3c258hlhp8t1v5uhnmrj2p1.apps.googleusercontent.com</string>
+    <string name="ask_ai">Ask AI...</string>
+
+</resources>

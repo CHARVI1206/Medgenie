@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Google Map View for Live Location -->
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"/>
+
+    <!-- Emergency Contacts List -->
+    <ListView
+        android:id="@+id/listViewContacts"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/mapView"
+        android:padding="8dp"/>
+
+    <!-- Add Emergency Contact Button -->
+    <Button
+        android:id="@+id/btnAddContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listViewContacts"
+        android:text="Add Emergency Contact"/>
+
+    <!-- SOS Emergency Button -->
+    <Button
+        android:id="@+id/btnSOS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAddContact"
+        android:text="SOS Emergency!"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF0000"
+        android:textSize="20sp"/>
+</RelativeLayout>
